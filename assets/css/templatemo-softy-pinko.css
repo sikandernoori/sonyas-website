@@ -647,8 +647,8 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(https://cdn.glitch.me/2a0e81f9-5e95-4ccf-b593-86e7b42d8b62%2Flowville4.jpg?v=1634748830848);
-  background-repeat: no-repeat;
+  background-image: url(https://cdn.glitch.me/2a0e81f9-5e95-4ccf-b593-86e7b42d8b62%2Flowville4.jpg?v=1634748830848), url(https://cdn.glitch.me/2a0e81f9-5e95-4ccf-b593-86e7b42d8b62%2FWellRounded%20(6).png?v=1635272833609);
+  background-repeat: repeat;
   background-position: center center;
   background-size: cover; 
   height: 100vh;
