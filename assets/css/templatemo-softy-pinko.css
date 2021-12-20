@@ -325,7 +325,7 @@ a.main-button-slider {
 }
 
 a.main-button-slider:hover {
-  background-color: #75507B;
+  background-color: #9d73a4;
 }
 
 a.main-button {
@@ -343,7 +343,7 @@ a.main-button {
 }
 
 a.main-button:hover {
-  background-color: #75507B;
+  background-color: #9d73a4;
 }
 
 button.main-button {
@@ -772,7 +772,7 @@ features
 }
 
 .features-small-item:hover .icon {
-  background-color: #228B22;
+  background-color: #9d73a4;
 }
 
 .features-small-item .icon {
