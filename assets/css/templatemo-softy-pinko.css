@@ -113,12 +113,12 @@ body {
 }
 
 ::selection {
-  background: #28a745;
+  background: #929b80;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #28a745;
+  background: #929b80;
   color: #fff;
 }
 
@@ -314,7 +314,7 @@ a.main-button-slider {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #28a745;
+  background-color: #929b80;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -332,7 +332,7 @@ a.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #28a745;
+  background-color: #929b80;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -353,7 +353,7 @@ button.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #28a745;
+  background-color: #929b80;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -786,7 +786,7 @@ features
   margin: auto;
   position: relative;
   margin-bottom: 30px;
-  background: #28a745;
+  background: #929b80;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -1217,7 +1217,7 @@ pricing
 }
 
 .pricing-item.active .pricing-body .price-wrapper {
-  background-color: #28a745;
+  background-color: #929b80;
 }
 
 .pricing-item.active .pricing-body .price-wrapper .currency {
@@ -1260,7 +1260,7 @@ pricing
   text-align: center;
   padding-top: 20px;
   padding-bottom: 13px;
-  background: #28a745;
+  background: #929b80;
   width: 80%;
   margin: auto;
   margin-bottom: 40px;
@@ -1451,7 +1451,7 @@ footer
 --------------------------------------------- 
 */
 footer {
-  background-image: linear-gradient(127deg, #75507B 0%, #6073DF 91%);
+  background-image: linear-gradient(127deg, #75507B 0%, #9d73a4 91%);
   padding-top: 30px;
 }
 
@@ -1467,7 +1467,7 @@ footer .social li {
 }
 
 footer .social li a {
-  color: #28a745;
+  color: #929b80;
    text-align: center;
   background-color: #fff;
   width: 36px;
@@ -1483,7 +1483,7 @@ footer .social li a {
 }
 
 footer .social li a:hover {
-  background-color: #228B22;
+  background-color: #929b80;
   color: #fff;
 }
 
@@ -1519,7 +1519,7 @@ preloader
 */
 #preloader {
   overflow: hidden;
-  background-image: linear-gradient(135deg, #a759d1 0%, #28a745 100%);
+  background-image: linear-gradient(135deg, #a759d1 0%, #929b80 100%);
   left: 0;
   right: 0;
   top: 0;
