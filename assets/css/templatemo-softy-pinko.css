@@ -325,7 +325,7 @@ a.main-button-slider {
 }
 
 a.main-button-slider:hover {
-  background-color: #228B22;
+  background-color: #75507B;
 }
 
 a.main-button {
@@ -343,7 +343,7 @@ a.main-button {
 }
 
 a.main-button:hover {
-  background-color: #228B22;
+  background-color: #75507B;
 }
 
 button.main-button {
@@ -437,7 +437,7 @@ position: relative;
 
 .header-area .main-nav .nav li a {
   display: block;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 13px;
   color: #fff;
   -webkit-transition: all 0.3s ease 0s;
@@ -1451,7 +1451,7 @@ footer
 --------------------------------------------- 
 */
 footer {
-  background-image: linear-gradient(127deg, #88f89b 0%, #28a745 91%);
+  background-image: linear-gradient(127deg, #75507B 0%, #6073DF 91%);
   padding-top: 30px;
 }
 
