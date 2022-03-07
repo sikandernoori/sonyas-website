@@ -562,9 +562,7 @@ position: relative;
   color: #1e1e1e;
 }
 
-.header-area.header-sticky .nav li a.active {
-  color: #228B22;
-}
+
 
 @media (max-width: 1200px) {
   .header-area .main-nav .nav li {
