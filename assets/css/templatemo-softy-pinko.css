@@ -322,11 +322,8 @@ a.main-button-slider {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  
 }
-.nav li:first-child a {
-  width: 50px;
-}
+
 a.main-button-slider:hover {
   background-color: #9d73a4;
 }
