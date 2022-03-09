@@ -94,7 +94,7 @@
 	}
 
 
-	// Page loading animation
+	// // Page loading animation
 	$(window).on('load', function() {
 		if($('.cover').length){
 			$('.cover').parallax({
@@ -123,7 +123,7 @@
 	function mobileNav() {
 		var width = $(window).width();
 		$('.submenu').on('click', function() {
-			if(width < 992) {
+			if(width < 500) {
 				$('.submenu ul').removeClass('active');
 				$(this).find('ul').toggleClass('active');
 			}

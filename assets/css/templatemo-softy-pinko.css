@@ -415,7 +415,7 @@ position: relative;
 
 .header-area .main-nav .nav {
   float: right;
-  margin-top: 1px;
+  margin-top: 10px;
   margin-left: 0px;
   margin-right: 30px;
   -webkit-transition: all 0.3s ease 0s;
@@ -434,6 +434,9 @@ position: relative;
 .header-area .main-nav .nav li:last-child {
   padding-right: 0px;
 }
+/* .header-area .main-nav .nav li:first-child {
+  margin-top: 20px;
+} */
 
 .header-area .main-nav .nav li a {
   display: block;
@@ -503,7 +506,7 @@ position: relative;
 }
 
 .header-area .main-nav .menu-trigger span {
-  top: 16px;
+  top: 23px;
 }
 
 .header-area .main-nav .menu-trigger span:before {
@@ -595,7 +598,7 @@ position: relative;
     overflow: hidden;
   }
   .header-area .main-nav .nav {
-    float: none;
+    
     width: 100%;
     /* margin-top: 80px !important; */
     display: none;
@@ -866,7 +869,18 @@ parallax & home seperator
 
 .mini .mini-content {
   position: relative;
+  display: flex;
+  flex-direction: column;
   z-index: 3;
+  width: 100%
+}
+.display{
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-between;
+  width:100%;
+
 }
 
 .mini .mini-content .info {
@@ -913,9 +927,14 @@ parallax & home seperator
 }
 
 .mini .mini-content .mini-box {
-  display: block;
+  display: flex;
+  flex-direction: column;
   background: #fff;
-  padding: 20px;
+  width: 11rem !important;
+  /* padding:20px 0px; */
+  
+
+  height:300px;
   border-radius: 20px;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
   margin-bottom: 30px;
@@ -926,6 +945,11 @@ parallax & home seperator
   transition: all 0.3s ease 0s;
   text-align: center;
  
+}
+.card-container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .mini .mini-content .mini-box:hover {
@@ -956,9 +980,10 @@ parallax & home seperator
 .mini .mini-content .mini-box span {
   display: block;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   color: #777;
   letter-spacing: .75px;
+  padding:0px 20px;
 }
 
 .mini .mini-content .mini-box strong {
