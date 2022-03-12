@@ -1163,8 +1163,7 @@ team
   position: relative;
   margin-bottom: 30px;
   padding-bottom: 25px;
-  height:320px;
-  width:300px;
+
 }
 
 .team-item:hover .team-content .team-info {

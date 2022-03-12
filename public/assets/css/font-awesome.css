@@ -2335,3 +2335,27 @@
   overflow: visible;
   clip: auto;
 }
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:20px;
+	right:15px;
+	background-color:#929b80;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+  z-index: 10;
+}
+
+.my-float{
+	margin-top:22px;
+}
+
+.float:hover {
+  background-color: #9d73a4;
+	color:#FFF;
+
+}
