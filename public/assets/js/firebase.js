@@ -38,7 +38,8 @@ function sendMessage() {
     var message = document.getElementById("message").value;
 
     firebase.auth().signInAnonymously()
-        .then(() => {
+        .then((response) => {
+            uuid = response.user.uid;
             uploadContactRequest(name, email, message);
         })
         .catch((error) => {
